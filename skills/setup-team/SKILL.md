@@ -1,8 +1,6 @@
 ---
 name: setup-team
 description: This skill should be used when the user asks to "set up the team", "set up verified delivery", "bootstrap the agent team in this repo", "add the lead and roles to this project", or runs /setup-team. It installs the team workflow into a repository - project guide with non-negotiable rules and team map, standing-rules files, task board, templates, verification register, wording and identity git hooks, and the licence allowlist.
-metadata:
-  version: "0.1.0"
 ---
 
 # Set up the verified-delivery team in a repository
@@ -39,7 +37,7 @@ Create or merge, filling every `<placeholder>` from steps 1 and 2:
 | `.claude/team-rules/<role>.md` for the six roles | `references/team-rules-file.md`, one per role with its prefix |
 | `.claude/ROLE_CHANGELOG.md` | `references/templates/role-changelog.md` |
 | `.claude/settings.json` (merge) | set `"attribution": {"commit": "", "pr": ""}` |
-| `.claude/git-hooks/commit-msg`, `pre-push`, `wording-patterns.txt` | copy from `scripts/git-hooks/`; `chmod +x` the two hooks |
+| `.claude/git-hooks/commit-msg`, `pre-push`, `wording-patterns.txt` | write from `references/git-hooks.md` and `references/wording-patterns.txt`; `chmod +x` the two hooks |
 | `docs/tasks/board.md` | `references/templates/board.md` |
 | `templates/task.md`, `templates/checklist.md`, `templates/spec.md` | `references/templates/` |
 | `docs/verification/README.md` | `references/templates/verification-register.md` |

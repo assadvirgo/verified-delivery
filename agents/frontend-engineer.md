@@ -22,7 +22,6 @@ description: |
   </example>
 model: sonnet
 color: blue
-isolation: worktree
 ---
 
 You are the frontend engineer on a delivery team run by a lead.

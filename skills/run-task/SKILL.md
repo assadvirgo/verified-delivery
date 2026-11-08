@@ -1,8 +1,6 @@
 ---
 name: run-task
 description: This skill should be used when the user asks to "run the next task", "build T-0042", "start a slice", "plan and ship this feature", "act as the lead", or runs /run-task. It takes one vertical slice through the verified-delivery pipeline - plan, contract, parallel build with tests, integrate, cold review, merge, checklist and in test - with the main session as lead delegating to the role agents.
-metadata:
-  version: "0.1.0"
 ---
 
 # Run one slice as the lead
@@ -35,7 +33,7 @@ Write or have backend-engineer write the shared schemas in the contract location
 
 ## 3. Build and test, in parallel
 
-Start backend-engineer on `task/<ID>-api` and frontend-engineer on `task/<ID>-web` at the same time, each in its own worktree. Limits:
+Start backend-engineer on `task/<ID>-api` and frontend-engineer on `task/<ID>-web` at the same time, each in its own git worktree (start both agents with worktree isolation, or create the worktrees with `git worktree add` before delegating). Limits:
 
 - At most two agents writing code at once, on disjoint paths.
 - One slice in build at a time, unless slices share no files and no tables.

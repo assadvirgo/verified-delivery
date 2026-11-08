@@ -1,8 +1,6 @@
 ---
 name: add-rule
 description: This skill should be used when the owner, a review finding or a defect produces a rule, convention or skill the team must keep - for example "remember this for the backend", "make that a standing rule", "add a rule that...", "the team should always...", or /add-rule. It records the rule with a traceable id, logs it, commits it and tells the owner.
-metadata:
-  version: "0.1.0"
 ---
 
 # Record a standing rule

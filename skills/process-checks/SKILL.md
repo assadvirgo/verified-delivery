@@ -1,8 +1,6 @@
 ---
 name: process-checks
 description: This skill should be used at the start of every lead session, and when the user says "testers have finished", "process the checklist results", "what's waiting for testing", "prepare this week's test session", or runs /process-checks. It reads the verification register and checklist files, marks passed slices done, turns failures into fix tasks that go first, and lists what is waiting for people.
-metadata:
-  version: "0.1.0"
 ---
 
 # Process human checklist results
