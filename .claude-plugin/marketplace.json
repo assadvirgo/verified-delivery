@@ -1,0 +1,14 @@
+{
+  "name": "verified-delivery",
+  "owner": {
+    "name": "Qazi Assad Mahmood"
+  },
+  "description": "Team workflow plugin: a lead and six roles shipping verified vertical slices.",
+  "plugins": [
+    {
+      "name": "verified-delivery",
+      "source": "./",
+      "description": "A lead agent and six specialist roles that ship software in small vertical slices, with a person's sign-off before anything is called done."
+    }
+  ]
+}

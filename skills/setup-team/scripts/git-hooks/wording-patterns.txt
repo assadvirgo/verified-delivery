@@ -1,0 +1,15 @@
+# One extended regular expression per line, matched case-insensitively.
+# Lines starting with # are ignored. Add the project's own terms as needed.
+\bclaude\b
+\banthropic\b
+\bchatgpt\b
+\bopenai\b
+\bgemini\b
+\bcopilot\b
+\bcursor ai\b
+\bllm\b
+\bai[- ](generated|written|assisted|authored|agent|agents)\b
+generated (with|by) (an? )?(ai|assistant|model)
+co-authored-by:.*(bot|noreply@)
+claude-session:
+🤖

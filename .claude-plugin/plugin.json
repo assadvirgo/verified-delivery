@@ -1,0 +1,10 @@
+{
+  "name": "verified-delivery",
+  "version": "0.1.1",
+  "description": "A lead agent and six specialist roles that ship software in small vertical slices: contract first, parallel build, blocking review, continuous merge, and a person's sign-off before anything is called done. Includes standing rules the team maintains, wording and identity git hooks, and a licence allowlist.",
+  "author": {
+    "name": "Qazi Assad Mahmood"
+  },
+  "license": "MIT",
+  "keywords": ["agents", "team", "workflow", "code-review", "qa", "verification", "delivery"]
+}
