@@ -1,5 +1,7 @@
 # verified-delivery
 
+**Your AI dev team, with a definition of done.**
+
 A lead agent and six specialist roles that ship software in small vertical slices, with a person's sign-off before anything is called done.
 
 ## What it gives you
